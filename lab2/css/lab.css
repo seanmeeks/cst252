@@ -1,0 +1,25 @@
+.cover {
+  background-image: linear-gradient(to bottom right, #FF69B4, yellow); /*makes background a gradient*/
+  border-style: double; /*makes border double style*/
+  border-width: 25px; /*makes border width 25 pixels*/
+}
+
+.ksg {
+  width: 50%; /*scales image 50%*/
+  border-style: double; /*makes border double style*/
+  border-width: thick; /*makes border width thick*/
+  display: block; /*displays element as block element*/
+  margin-left: auto; /*evenly spaces out left margin of the image*/
+  margin-right: auto; /*evenly spaces out right margin of the image*/
+}
+
+h1 {
+  text-align: center; /*center aligns text*/
+  color: white; /*makes text white*/
+  font-family: cursive; /*makes text cursive*/
+}
+
+p {
+  color: black; /*makes text black*/
+  text-align: center; /*center aligns text*/
+}
