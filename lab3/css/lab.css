@@ -1,0 +1,31 @@
+.description {
+  background-color: blue;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.intro {
+  background-color: red;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.answers {
+  background-color: #FFD700;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.pseudocode {
+  background-color: green;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
