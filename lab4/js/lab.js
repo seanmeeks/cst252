@@ -4,8 +4,9 @@ function flowerFunction() {
 	//YOUR CODE GOES RIGHT HERE
 
 	document.querySelector("#flower5 .center").textContent = document.querySelector("#flower1 .center").textContent + document.querySelector("#flower3 .center").textContent;
-	document.querySelector("#flower5 .center").style.backgroundColor = "purple";
-	document.querySelector("#flower5 .center").style.color = "white";
+	document.querySelector("#flower5 .center").style.backgroundColor = "red";
+	document.querySelector("#flower5 .center").style.color = "black";
+  document.querySelector("#flower4 .petal").style.backgroundColor = "green";
 
 	document.querySelector(`#flower1`).style.marginTop = "100px";
 	document.querySelector(`#flower2`).style.marginTop = "100px";
