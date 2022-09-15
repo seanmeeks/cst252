@@ -3,9 +3,16 @@ function flowerFunction() {
 
 	//YOUR CODE GOES RIGHT HERE
 
+  //this code adds the two variables together to get the nnumber in the center of the last flower
 	document.querySelector("#flower5 .center").textContent = document.querySelector("#flower1 .center").textContent + document.querySelector("#flower3 .center").textContent;
-	document.querySelector("#flower5 .center").style.backgroundColor = "red";
+
+  //this code changes the center of the flower's color to red
+  document.querySelector("#flower5 .center").style.backgroundColor = "red";
+
+  //this code changes the text in the center of the flower's color to black
 	document.querySelector("#flower5 .center").style.color = "black";
+
+  //this code changes the left petal of the flower's color to green
   document.querySelector("#flower4 .petal").style.backgroundColor = "green";
 
 	document.querySelector(`#flower1`).style.marginTop = "100px";
