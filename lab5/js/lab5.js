@@ -10,8 +10,8 @@ sun.orbitRadius = 0;
 
 sun.newPlanet();
 let earth = sun.planets[0];
-earth.color = "blue";
-earth.planetRadius = 25; 
+earth.color = "purple";
+earth.planetRadius = 25;
 earth.orbitRadius = 200;
 
 earth.newPlanet();
@@ -20,7 +20,17 @@ earthMoon.color = "lightblue";
 earthMoon.planetRadius = 10;
 earthMoon.orbitRadius = 30;
 
+sun.newPlanet();
+let pluto = solarSystem.planets[0];
+pluto.color = "pink"
+pluto.planetRadius = 15;
+pluto.orbitRadius = 60;
 
+pluto.newPlanet();
+let plutoMoon = pluto.planets[0];
+plutoMoon.color = "yellow";
+plutoMoon.planetRadius = 7;
+plutoMoon.orbitRadius = 100;
 //ADD ADDITIONAL CODE HERE!
 
 
