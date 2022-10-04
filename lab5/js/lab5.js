@@ -30,7 +30,8 @@ pluto.newPlanet();
 let plutoMoon = pluto.planets[0];
 plutoMoon.color = "yellow";
 plutoMoon.planetRadius = 7;
-plutoMoon.orbitRadius = 100;
+plutoMoon.orbitRadius = 100; 
+
 //ADD ADDITIONAL CODE HERE!
 
 
