@@ -1,0 +1,22 @@
+body {
+  background-color: orange;
+  color: #FFD700;
+  text-align: center;
+}
+
+h1 {
+  color: green;
+}
+
+p {
+  color: white;
+}
+
+h2 {
+  color: red;
+}
+
+button {
+  background-color: red;
+  color: white;
+}
