@@ -22,11 +22,11 @@ let subheading = (e) => {
 let yass = (e) => {
   console.log(e);
   let resultz = document.querySelector('.results');
-  resultz.style.color = 'white'
+  resultz.style.color = 'red'
   let challenged = document.querySelector('.challenge');
-  challenged.style.color = 'white'
+  challenged.style.color = 'red'
   let problemo = document.querySelector('.problems');
-  problemo.style.color = 'white';
+  problemo.style.color = 'red';
 }
 
 addEventListener("click", handle);
