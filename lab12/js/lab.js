@@ -10,8 +10,8 @@ document.addEventListener('DOMContentLoaded', () => {
   let inputBox = document.querySelector('#inputBox');
 
   let checkNumber = (e) => {
-    console.log(+e.currentTarget.value);
-    let userInput = e.currentTarget.value;
+    console.log(e.currentTarget.value);
+    let userInput = +e.currentTarget.value;
     if (userInput === randomNumber) {
       console.log("You guessed it!");
     }
