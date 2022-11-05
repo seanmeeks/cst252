@@ -1,0 +1,25 @@
+.box {
+	background-color: black;
+	width: 250px;
+	height: 250px;
+}
+
+.boxFinal {
+	background-color: red;
+	width: 500px;
+}
+
+.boxAnimation {
+	transition-property: background-color, width;
+	transition-duration: 1s;
+}
+
+.nickiDiv img {
+	width: 250px;
+	height: 250px;
+}
+
+.nickiAnimation {
+		transition-property: all;
+		transition-duration: 1s;
+}
